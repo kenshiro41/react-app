@@ -1,0 +1,27 @@
+.navbar-cotent {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-content: space-between;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.navbar-left {
+  display: flex;
+  text-align: left;
+}
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+.navbar-right {
+  align-content: center;
+  text-align: right;
+}
+
+.enabled-search-bar {
+  transition: all 0.6s ease;
+}

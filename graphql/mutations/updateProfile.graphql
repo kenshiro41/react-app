@@ -1,0 +1,12 @@
+mutation updateProfile($input: updateProfile!) {
+  updateProfile(input: $input) {
+    token
+    iat
+    exp
+    user {
+      id
+      user_name
+      nickname
+    }
+  }
+}

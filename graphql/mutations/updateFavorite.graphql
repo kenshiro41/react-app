@@ -1,0 +1,5 @@
+mutation updateFavorite($input: updateFavorite!) {
+  updateFavorite(input: $input) {
+    success
+  }
+}

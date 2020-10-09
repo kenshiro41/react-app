@@ -1,0 +1,26 @@
+$MAIN_COLOR: #4dabf5;
+
+.icon-button {
+  &:hover {
+    color: yellow;
+  }
+}
+#star {
+  color: yellow;
+  &:hover {
+    border-color: yellow;
+  }
+}
+
+.tweet-card-left-content {
+  display: flex;
+  cursor: pointer;
+}
+.tweet-card-avator {
+  margin: 10px;
+}
+.tweet-card-user-link {
+  &:hover {
+    color: $MAIN_COLOR;
+  }
+}

@@ -1,0 +1,15 @@
+query followInfo($user_name: String!) {
+  followInfo(user_name: $user_name) {
+    isFollowing
+    following {
+      user_name
+      nickname
+      user_img
+    }
+    followed {
+      user_name
+      nickname
+      user_img
+    }
+  }
+}

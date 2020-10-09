@@ -1,0 +1,5 @@
+query editCheck($tweet_id: Int!) {
+  editCheck(tweet_id: $tweet_id) {
+    success
+  }
+}

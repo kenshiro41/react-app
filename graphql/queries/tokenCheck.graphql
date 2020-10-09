@@ -1,0 +1,5 @@
+query tokenCheck($user_name: String!) {
+  tokenCheck(user_name: $user_name) {
+    success
+  }
+}

@@ -1,0 +1,16 @@
+query tweets($current: Int!) {
+  tweets(current: $current) {
+    id
+    tweet_name
+    text
+    created_at
+    user_id
+    user_name
+    nickname
+    user_img
+    ImgCount
+    CommentCount
+    FavCount
+    isFavorite
+  }
+}

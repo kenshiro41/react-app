@@ -1,0 +1,8 @@
+mutation addComment($input: addComment!) {
+  addComment(input: $input) {
+    comment
+    tweet_id
+    user_id
+    created_at
+  }
+}

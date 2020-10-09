@@ -1,0 +1,5 @@
+mutation followUser($input: updateFollow!) {
+  followUser(input: $input) {
+    success
+  }
+}

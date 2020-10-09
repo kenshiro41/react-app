@@ -1,0 +1,11 @@
+query comments($tweet_id: Int!) {
+  comments(tweet_id: $tweet_id) {
+    comment
+    tweet_id
+    user_id
+    user_name
+    nickname
+    user_img
+    created_at
+  }
+}

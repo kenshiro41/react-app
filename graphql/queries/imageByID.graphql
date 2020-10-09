@@ -1,0 +1,5 @@
+query imageByID($tweet_id: Int!) {
+  imageByID(tweet_id: $tweet_id) {
+    img_url
+  }
+}

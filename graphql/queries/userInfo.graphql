@@ -1,0 +1,10 @@
+query userInfo($user_name: String!) {
+  userInfo(user_name: $user_name) {
+    id
+    user_name
+    nickname
+    user_img
+    created_at
+    updated_at
+  }
+}

@@ -1,0 +1,31 @@
+$BG_COLOR: #383636;
+body {
+  font-family: Gothic MB101 Light, Hiragino Kaku Gothic W3 JIS2004, 'メイリオ',
+    Meiryo, Verdana, 'ＭＳ Ｐゴシック', sans-serif;
+  background-color: $BG_COLOR !important;
+  color: #e0e0e0 !important;
+}
+
+a {
+  color: #e0e0e0;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+*:focus {
+  outline: none !important;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input:-webkit-autofill {
+  -webkit-transition: background-color 9999s;
+  transition: background-color 9999s;
+}
+
+.MuiIconButton-root {
+  color: $BG_COLOR;
+}

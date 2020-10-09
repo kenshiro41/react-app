@@ -1,0 +1,16 @@
+mutation updateTweet($input: updateTweet!) {
+  updateTweet(input: $input) {
+    id
+    tweet_name
+    text
+    created_at
+    user_id
+    user_name
+    nickname
+    user_img
+    ImgCount
+    CommentCount
+    FavCount
+    isFavorite
+  }
+}
